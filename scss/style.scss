@@ -1,0 +1,166 @@
+//FONTS
+$primaryFont: "Poppins",Arial,sans-serif;
+$displayFont: "Righteous",Arial,sans-serif;
+
+//COLOR PALETTES
+
+$Red: rgb(130, 53, 67);
+$Blue: rgb(106, 162, 181);
+$Green: rgb(121, 188, 115);
+$Brown: rgb(132, 102, 66);
+$Purple: rgb(86, 65, 140);
+
+
+body, #app {
+  font: 1rem $primaryFont;
+}
+
+#title {
+  font: 1rem $displayFont;
+  text-align: right;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: -1;
+}
+
+#app {
+  margin: 5vh 10vw;
+}
+
+#addRecipe {
+  background: darken($Green,20%);
+  color: white;
+  font: 1.25rem $primaryFont;
+  box-shadow: 1px 2px 1px #000000;
+}
+#addRecipe:hover {
+  background: lighten($Green,10%);
+  color: darken($Green,20%);
+  border: 1px solid darken($Green,20%);
+  
+}
+
+#recipeBox {
+  font-size: .75rem;
+}
+
+.accordion-title:hover {
+  color: darken($Red, 15%);
+  background: lighten($Red,45%);
+}
+.accordion-title, .accordion-title:focus {
+  background: $Red; 
+  color: white;
+  font-size: 1.1rem;
+}
+
+.accordion-content {
+  background: lighten($Blue,40%);
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.ingredient {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+#ingredientTitle, #instructionTitle {
+  font-size: 1.25rem;
+  background: darken($Blue,10%);
+  color: white;
+  width: 100%;
+  padding:  15px 35px 5px 35px;
+  text-align: center;
+  
+}
+.leftCol, .rightCol {
+  background: #FFFFFF;
+  padding:0;
+}
+#instructionsOL {
+  line-height: 1.5;
+  padding: 10px;
+}
+
+//MIDDLE COLUMN OF PANEL
+.midImgBut {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  img {
+    
+  }
+  #midButBox {
+    margin-top: 0px;
+  .delete {
+    background: darken($Purple,10%);
+    color: white;
+    font: 1.25rem $primaryFont;
+    padding: 10px 20px;
+    margin-right: 5px;
+    box-shadow: 1px 2px 1px #000000;
+  }
+  .delete:hover {
+    background: lighten($Purple,20%);
+    color: darken($Purple,10%);
+    border: 1px solid darken($Purple,10%);
+    }
+    .edit {
+      background: darken($Brown,10%);
+      color: white;
+      font: 1.25rem $primaryFont;
+      padding: 10px 20px;
+      margin-left: 5px;
+      box-shadow: 1px 2px 1px #000000;
+    }
+    .edit:hover {
+       background: lighten($Brown,20%);
+       color: darken($Brown,10%);
+       border: 1px solid darken($Brown,10%);
+    }
+  }
+}
+
+//REVEAL
+#newItem{
+  #newRecipe {
+    text-align: center;
+    background: $Red;
+    color: white;
+  }
+.label{
+  background: $Blue;
+  font: .9rem $primaryFont;
+  padding: 3px 15px;
+  margin-bottom: 5px;
+  display: block;
+}
+textarea {
+ 
+}
+  #revealClose {
+    background: darken($Green,20%);
+    color: white;
+    font: 1rem $primaryFont;
+  }
+  #revealClose:hover {
+    background: lighten($Green,20%);
+    color: darken($Green,20%);
+    border: 1px solid darken($Green,20%);
+  }
+  #saveRecipe {
+    background: darken($Brown,10%);
+    color: white;
+    font: 1.25rem $primaryFont;
+}
+  #saveRecipe:hover {
+    background: lighten($Brown,20%);
+    color: darken($Brown,10%);
+    border: 1px solid darken($Brown,10%);
+  }
+}

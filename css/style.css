@@ -1,0 +1,162 @@
+body, #app {
+  font: 1rem "Poppins", Arial, sans-serif;
+}
+
+#title {
+  font: 1rem "Righteous", Arial, sans-serif;
+  text-align: right;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: -1;
+}
+
+#app {
+  margin: 5vh 10vw;
+}
+
+#addRecipe {
+  background: #478841;
+  color: white;
+  font: 1.25rem "Poppins", Arial, sans-serif;
+  box-shadow: 1px 2px 1px #000000;
+}
+
+#addRecipe:hover {
+  background: #9acd95;
+  color: #478841;
+  border: 1px solid #478841;
+}
+
+#recipeBox {
+  font-size: .75rem;
+}
+
+.accordion-title:hover {
+  color: #4c1f27;
+  background: #e3bac1;
+}
+
+.accordion-title, .accordion-title:focus {
+  background: #823543;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.accordion-content {
+  background: #f2f7f9;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.ingredient {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 10px;
+}
+
+#ingredientTitle, #instructionTitle {
+  font-size: 1.25rem;
+  background: #4e8a9e;
+  color: white;
+  width: 100%;
+  padding: 15px 35px 5px 35px;
+  text-align: center;
+}
+
+.leftCol, .rightCol {
+  background: #FFFFFF;
+  padding: 0;
+}
+
+#instructionsOL {
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.midImgBut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.midImgBut #midButBox {
+  margin-top: 0px;
+}
+.midImgBut #midButBox .delete {
+  background: #413169;
+  color: white;
+  font: 1.25rem "Poppins", Arial, sans-serif;
+  padding: 10px 20px;
+  margin-right: 5px;
+  box-shadow: 1px 2px 1px #000000;
+}
+.midImgBut #midButBox .delete:hover {
+  background: #8974bf;
+  color: #413169;
+  border: 1px solid #413169;
+}
+.midImgBut #midButBox .edit {
+  background: #624c31;
+  color: white;
+  font: 1.25rem "Poppins", Arial, sans-serif;
+  padding: 10px 20px;
+  margin-left: 5px;
+  box-shadow: 1px 2px 1px #000000;
+}
+.midImgBut #midButBox .edit:hover {
+  background: #b99973;
+  color: #624c31;
+  border: 1px solid #624c31;
+}
+
+#newItem #newRecipe {
+  text-align: center;
+  background: #823543;
+  color: white;
+}
+#newItem .label {
+  background: #6aa2b5;
+  font: 0.9rem "Poppins", Arial, sans-serif;
+  padding: 3px 15px;
+  margin-bottom: 5px;
+  display: block;
+}
+#newItem #revealClose {
+  background: #478841;
+  color: white;
+  font: 1rem "Poppins", Arial, sans-serif;
+}
+#newItem #revealClose:hover {
+  background: #bbddb8;
+  color: #478841;
+  border: 1px solid #478841;
+}
+#newItem #saveRecipe {
+  background: #624c31;
+  color: white;
+  font: 1.25rem "Poppins", Arial, sans-serif;
+}
+#newItem #saveRecipe:hover {
+  background: #b99973;
+  color: #624c31;
+  border: 1px solid #624c31;
+}
