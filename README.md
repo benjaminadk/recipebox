@@ -11,3 +11,5 @@
  ### Notes To Self
  
  - used Favicon Generator to mass produce favicons for almost everything from one source file
+ 
+ ![image](https://s3-us-west-2.amazonaws.com/s.cdpn.io/1216298/Screenshot%202017-07-06%20at%205.18.28%20PM.png "Logo Title Text 1")
